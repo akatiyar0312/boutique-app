@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: boutique-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: boutique-app
+  template:
+    metadata:
+      labels:
+        app: boutique-app
+    spec:
+      containers:
+      - name: boutique-app
+        image: gcr.io/your-gcp-project-id/boutique-app
+        ports:
+        - containerPort: 5000

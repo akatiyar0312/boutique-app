@@ -1,0 +1,12 @@
+import React from 'react';
+
+const Blouses = () => {
+    return (
+        <div>
+            <h1>Blouses</h1>
+            <p>Content for Blouses page.</p>
+        </div>
+    );
+};
+
+export default Blouses;

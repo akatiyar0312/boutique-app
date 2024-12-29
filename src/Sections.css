@@ -1,0 +1,21 @@
+/* src/Sections.css */
+.sections {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+.section p {
+    margin: 0;
+}
